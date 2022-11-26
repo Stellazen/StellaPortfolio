@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fundo: #FFFBF8;
+    --marrom: #993E22;
+    --rosinha: #FF8E6B;
+    --laranja: #E66E4A;
+    --verde: #0E7F8A;
+    --verdeClaro: #40C9D6;
+
+    --titulo:'Bebas Neue', cursive;
+
+}
+
+body{
+    width: 99vw;
+    height: 100vh;
+    background-color: var(--fundo);
+}
+
+.banner{
+    background-image: url(../imagens/not.jpg);
+    height: 900px;
+    width: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: var(--titulo);
+    font-size: 2em;
+    padding-top: 200px;
+}
+
+.titulo-dev{
+    margin-left: 130px;
+    font-size: 1.1em;
+    background-color: var(--laranja);
+    padding: 3px;
+}
+
+.titulo-nome{
+    background-color: #40C9D6;
+    border-left: 30px solid #40C9D6;
+}
+
+p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.foto-stella{
+    width: 400px;
+    padding-top: 30px;
+}
