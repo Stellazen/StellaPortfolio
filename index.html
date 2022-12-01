@@ -7,14 +7,12 @@
     <title>Portfólio Stella Zen</title>
     <meta name="description" content="Portfólio Desenvolvedora Stella Zen e meus principais trabalhos">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
-
-    <link rel="stylesheet" href="estilos/style.css">
-
+    
     <!--dev icons usados nessa página:-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
- 
-          
-   
+
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,8 +25,8 @@
                 <li><a href="https://www.linkedin.com/in/stella-zen-690569197/" target="_blank">LinkedIn</a> 
                     <i class="devicon-linkedin-plain"></i>
                   </li>
-                <li>Quem sou eu</li>
-                <li>Meu Trabalho</li>
+                <li onclick="rolar()">Quem sou eu</li>
+                <li onclick="trabalho()">Meu Trabalho</li>
             </ul>
         </nav>
         <div class="header">
@@ -44,7 +42,7 @@
     <main>
 
         <h3 class="titulo-3">Bem Vindos ao meu portfólio</h3>
-        <div class="quem">
+        <div class="quem" id="quem">
         <img class="foto-stella" src="imagens/stella-semfundo.png"alt="foto Stella">
             <div class="texto">
                 <h4 class="quem-titulo">Quem sou eu</h4>
