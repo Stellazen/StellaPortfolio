@@ -149,11 +149,46 @@ a:hover{
 .trabalhos{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 
 .trabalho-1{
     background-image: url(../imagens/menino-folha-c.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    cursor: pointer;
+    filter: grayscale(0.2);
+    transition: 0.5s ease-in-out;
+}
+
+.trabalho-2{
+    background-image: url(../imagens/rate-element.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    cursor: pointer;
+    filter: grayscale(0.2);
+    transition: 0.5s ease-in-out;
+}
+
+.trabalho-3{
+    background-image: url(../imagens/column-card.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,7 +260,6 @@ a:hover{
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(0.5);
     color: black;
     cursor: pointer;
     transition: 0.5 ease-in-out;
@@ -276,12 +310,12 @@ a:hover{
 }
 
 .trabalho-1:hover{
-    filter: unset;
+    filter: grayscale(0.5);
 }
 
 .trabalho-1:hover > .card-wrapper::before{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     opacity: 1;
 }
 
