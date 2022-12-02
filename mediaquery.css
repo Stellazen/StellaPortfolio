@@ -38,16 +38,18 @@
     }
 
     .titulo-nome{
+        font-size: 2.1875rem /*35px*/;
         margin: 10px;
     }
 
     .titulo-dev{
+        font-size: 1.875rem /*30px*/;
         margin: 10px;
         margin-left: 50px;
     }
 
     .titulo-3{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .quem{
@@ -63,7 +65,7 @@
     }
 
     .trabalho-1, .trabalho-2, .trabalho-3, .trabalho-4, .trabalho-5{
-        width: 400px;
-        height: 230px;
+        width: 350px;
+        height: 200px;
     }
 }
