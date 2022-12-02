@@ -19,9 +19,17 @@
 }
 
 @media (max-width: 768px){
+    .menina{
+        width: 350px;
+    }
+
     .header{
         display: flex;
         flex-direction: column;
+    }
+
+    .mobile{
+        display: none;
     }
 
     .titulo{
@@ -36,5 +44,26 @@
     .titulo-dev{
         margin: 10px;
         margin-left: 50px;
+    }
+
+    .titulo-3{
+        font-size: 2.5em;
+    }
+
+    .quem{
+        flex-direction: column;
+    }
+
+    .foto-stella{
+        margin: 10px;
+    }
+
+    .texto{
+        padding: 25px;
+    }
+
+    .trabalho-1, .trabalho-2, .trabalho-3, .trabalho-4, .trabalho-5{
+        width: 400px;
+        height: 230px;
     }
 }
