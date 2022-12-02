@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media (max-width: 992px){
+    .menina{
+        width: 400px;
+    }
+
+    .titulo-nome{
+        font-size: 1.5em;
+    }
+
+    .titulo-dev{
+        font-size: 1em;
+    }
+
+    .foto-stella{
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-nome{
+        margin: 10px;
+    }
+
+    .titulo-dev{
+        margin: 10px;
+        margin-left: 50px;
+    }
+}

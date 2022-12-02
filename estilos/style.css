@@ -29,6 +29,8 @@ body{
     background-color: white;
 }
 
+/* HEADER */
+
 .menina{
     width: 600px;
     display: block;
@@ -48,12 +50,8 @@ li{
     color: var(--verde);
     font-size: 1.7em;
     padding: 3px;
-    transition: 0.5s;
-}
-
-li:hover{
-    color: #E66E4A;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 a{
@@ -95,11 +93,15 @@ a:hover{
     font-size: 1.1em;
     padding: 3px;
     color: #E66E4A;
+    transition: 0.5s ease-in-out;
 }
 
 .titulo-nome{
    color: #993E22;
+   transition: 0.5s ease-in-out;
 }
+
+/* MAIN */
 
 .titulo-3{
     font-size: 3em;
@@ -134,6 +136,7 @@ a:hover{
 .foto-stella{
     width: 400px;
     margin-left: 80px;
+    transition: 0.5s ease-in-out;
 }
 
 .trabalhos{
