@@ -32,9 +32,18 @@
         display: none;
     }
 
+    .nome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     .titulo{
         display: flex;
         flex-direction: column;
+        margin: 10px;
     }
 
     .titulo-nome{
@@ -45,7 +54,7 @@
     .titulo-dev{
         font-size: 1.875rem /*30px*/;
         margin: 10px;
-        margin-left: 50px;
+
     }
 
     .titulo-3{
