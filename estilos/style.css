@@ -173,7 +173,20 @@ li:hover{
     background-image: url(../imagens/ana.png);
 }
 
-.trabalho-1, .trabalho-2, .trabalho-3, .trabalho-4, .trabalho-5{ /*configuração*/
+.trabalho-6{ /*imagem*/
+    background-image: url(../imagens/ghibli.png);
+}
+
+.trabalho-7{ /*imagem*/
+    background-image: url(../imagens/rede-social.png);
+}
+
+.trabalho-8{ /*imagem*/
+    background-image: url(../imagens/burger\ \(1\).png);
+}
+
+
+.trabalho-1, .trabalho-2, .trabalho-3, .trabalho-4, .trabalho-5, .trabalho-6, .trabalho-7, .trabalho-8{ /*configuração*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -204,57 +217,20 @@ li:hover{
     position: relative;
 }
 
-.trabalho-1:hover > .card-wrapper p {
+.trabalho-1:hover > .card-wrapper p,
+.trabalho-2:hover > .card-wrapper p,
+.trabalho-3:hover > .card-wrapper p,
+.trabalho-4:hover > .card-wrapper p,
+.trabalho-5:hover > .card-wrapper p,
+.trabalho-6:hover > .card-wrapper p,
+.trabalho-7:hover > .card-wrapper p,
+.trabalho-8:hover > .card-wrapper p  {
     opacity: 1;
     visibility: visible;
     font-size: 16px;
     color: white;
     background-color: #0e808abd;
     padding: 5px;
-    border-radius: 15px;
-}
-
-.trabalho-2:hover > .card-wrapper p {
-    opacity: 1;
-    visibility: visible;
-    font-size: 16px;
-    color: white;
-    background-color: #0e808abd;
-    padding: 5px;
-    padding-top: 10px;
-    border-radius: 15px;
-}
-
-.trabalho-3:hover > .card-wrapper p {
-    opacity: 1;
-    visibility: visible;
-    font-size: 16px;
-    color: white;
-    background-color: #0e808abd;
-    padding: 5px;
-    padding-top: 10px;
-    border-radius: 15px;
-}
-
-.trabalho-4:hover > .card-wrapper p {
-    opacity: 1;
-    visibility: visible;
-    font-size: 16px;
-    color: white;
-    background-color: #0e808abd;
-    padding: 5px;
-    padding-top: 10px;
-    border-radius: 15px;
-}
-
-.trabalho-5:hover > .card-wrapper p {
-    opacity: 1;
-    visibility: visible;
-    font-size: 16px;
-    color: white;
-    background-color: #0e808abd;
-    padding: 5px;
-    padding-top: 10px;
     border-radius: 15px;
 }
 
