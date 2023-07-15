@@ -185,8 +185,16 @@ li:hover{
     background-image: url(../imagens/burger\ \(1\).png);
 }
 
+.trabalho-9{ /*imagem*/
+    background-image: url(../imagens/thais2.png);
+}
 
-.trabalho-1, .trabalho-2, .trabalho-3, .trabalho-4, .trabalho-5, .trabalho-6, .trabalho-7, .trabalho-8{ /*configuração*/
+.trabalho-10{ /*imagem*/
+    background-image: url(../imagens/thais1.png);
+}
+
+
+.trabalho-1, .trabalho-2, .trabalho-3, .trabalho-4, .trabalho-5, .trabalho-6, .trabalho-7, .trabalho-8, .trabalho-9, .trabalho-10{ /*configuração*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -224,7 +232,9 @@ li:hover{
 .trabalho-5:hover > .card-wrapper p,
 .trabalho-6:hover > .card-wrapper p,
 .trabalho-7:hover > .card-wrapper p,
-.trabalho-8:hover > .card-wrapper p  {
+.trabalho-8:hover > .card-wrapper p,
+.trabalho-9:hover > .card-wrapper p,
+.trabalho-10:hover > .card-wrapper p    {
     opacity: 1;
     visibility: visible;
     font-size: 16px;
