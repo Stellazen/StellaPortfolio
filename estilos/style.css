@@ -193,8 +193,20 @@ li:hover{
     background-image: url(../imagens/thais1.png);
 }
 
+.trabalho-so-carrao-vue{
+    background-image: url(../imagens/socarraoc.png);
+}
 
-.trabalho-1, .trabalho-2, .trabalho-3, .trabalho-4, .trabalho-5, .trabalho-6, .trabalho-7, .trabalho-8, .trabalho-9, .trabalho-10{ /*configuração*/
+.trabalho-code-beer{
+    background-image: url(../imagens/code-beer.png);
+}
+
+.trabalho-thais-go{
+    background-image: url(../imagens/thaisGO.png);
+}
+
+
+.trabalho-1, .trabalho-2, .trabalho-3, .trabalho-4, .trabalho-5, .trabalho-6, .trabalho-7, .trabalho-8, .trabalho-9, .trabalho-10, .trabalho-so-carrao-vue, .trabalho-code-beer, .trabalho-thais-go { /*configuração*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -234,7 +246,10 @@ li:hover{
 .trabalho-7:hover > .card-wrapper p,
 .trabalho-8:hover > .card-wrapper p,
 .trabalho-9:hover > .card-wrapper p,
-.trabalho-10:hover > .card-wrapper p    {
+.trabalho-10:hover > .card-wrapper p,
+.trabalho-so-carrao-vue:hover > .card-wrapper p,
+.trabalho-code-beer:hover > .card-wrapper p,
+.trabalho-thais-go:hover > .card-wrapper p    {
     opacity: 1;
     visibility: visible;
     font-size: 16px;
